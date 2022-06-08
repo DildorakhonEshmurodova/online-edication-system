@@ -1,0 +1,56 @@
+.first-page-box .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.course{
+    margin: 40px 20px;
+    text-align: center;
+
+}
+.course-img{
+    width: 600px;
+    height: 300px;
+    margin: 30px 0;
+}
+.page-title{
+    margin: 40px 0;
+    font-size: 50px;
+    color: blue;
+    text-shadow: 3px 3px 5px red;
+    font-style: italic;
+    transition: 0.3s;
+    
+}
+.page-title:hover{
+    transform: scale(1.2);
+}
+.news-heading{
+    margin: 40px 0;
+    font-size: 36px;
+    color: black;
+    text-shadow: 3px 3px 5px grey;
+    font-style: italic;
+    transition: 0.3s;
+}
+.news-heading:hover{
+    transform: scale(1.2);
+}
+.news-parag{
+    font-style: italic;
+}
+.course-video{
+    margin: 20px 0;
+    width:700px;
+    height: 350px;
+    border-radius: 30px;
+    box-shadow: 3px 3px 5px rgb(140, 138, 138);
+    transition: 0.3s;
+}
+.course-video:hover{
+    transform: scale(1.2);
+    margin: 50px 0;
+    box-shadow: 5px 5px 5px rgb(140, 138, 138);
+}

@@ -1,0 +1,25 @@
+.carousel-heading, .carousel-parag{
+    color: yellow;
+    text-shadow: 4px 4px 4px black;
+}
+.carousel-btn{
+    padding: 5px 50px;
+    border-radius: 10px;
+    background-color: rgb(20, 121, 235);
+    color: white;
+    border: 2px solid rgb(20, 121, 235);
+    font-size: 20px;
+    margin: 20px;
+    transition: 0.3s;
+}
+.carousel-btn:hover{
+    background-color: white;
+    color: rgb(20, 121, 235);
+    border: 2px solid rgb(20, 121, 235);
+    transform: scale(0.9);
+}
+.carousel-span{
+    display: flex;justify-content: center;
+    align-items: center;
+}
+
